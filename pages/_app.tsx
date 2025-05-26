@@ -1,11 +1,16 @@
 import type { AppProps } from 'next/app'
-import { ChakraProvider } from '@chakra-ui/react'
+import { ThemeProvider } from '@/components/theme-provider'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
+    >
       <Component {...pageProps} />
-    </ChakraProvider>
+    </ThemeProvider>
   )
 }
 

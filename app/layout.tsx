@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'ThreeLayered',
-    description: 'ThreeLayered',
+    description: '디자인부터 개발까지, 브랜드를 완성하는 크리에이티브 스타트업 – ThreeLayered',
     url: 'https://www.three-layered.com/',
     siteName: 'ThreeLayered',
     images: [
       {
-        url: '/logo/logo-small.svg',
+        url: '/logo/logo.svg',
         width: 72,
         height: 347,
         alt: 'ThreeLayered Logo',

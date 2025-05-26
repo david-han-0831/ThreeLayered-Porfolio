@@ -192,6 +192,7 @@ const Hero = () => {
           min-height: 50vh;
           padding: 2rem;
           position: relative;
+          margin-top: 5rem; /* navbar 높이만큼 여백 추가 */
         }
 
         .hero-container {

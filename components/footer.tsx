@@ -14,7 +14,7 @@ export default function Footer() {
           {/* About */}
           <div className="flex-1 min-w-[220px] flex flex-col gap-5">
             <div className="flex items-center gap-2">
-              <Image src="/logo/Group 1000002133.svg" alt="ThreeLayed Logo" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logo/logo.svg" alt="ThreeLayed Logo" width={160} height={40} className="h-10 w-auto" />
             </div>
             <p className="text-[#23262F] text-base leading-relaxed max-w-xs">
               A smart and professional solution<br />

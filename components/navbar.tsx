@@ -19,13 +19,13 @@ export default function Navbar() {
   }
 
   return (
-    <header className="w-full border-b border-gray-100">
+    <header className="w-full border-b border-gray-100 fixed top-0 left-0 z-50 bg-white/95 backdrop-blur-sm shadow-[0px_4px_4px_0px_rgba(0,0,0,0.03)]">
       <div className="flex h-20 items-center justify-between w-[90rem] max-w-full px-[5rem] mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="relative h-10 w-[160px] flex items-center">
             <Image
-              src="/logo/Group 1000002133.svg"
+              src="/logo/logo.svg"
               alt="ThreeLayered Logo"
               fill
               style={{ objectFit: "contain" }}

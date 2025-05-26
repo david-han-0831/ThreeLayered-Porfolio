@@ -12,8 +12,57 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: "ThreeLayered",
-  description: "ThreeLayered website",
-    generator: 'v0.dev'
+  description: "ThreeLayered - 웹 개발자 포트폴리오",
+  generator: 'v0.dev',
+  icons: {
+    icon: '/logo/logo-small.svg',
+    shortcut: '/logo/logo-small.svg',
+    apple: '/logo/logo-small.svg',
+  },
+  openGraph: {
+    title: 'ThreeLayered',
+    description: 'ThreeLayered',
+    url: 'https://www.three-layered.com/',
+    siteName: 'ThreeLayered',
+    images: [
+      {
+        url: '/logo/logo-small.svg',
+        width: 72,
+        height: 347,
+        alt: 'ThreeLayered Logo',
+      },
+    ],
+    locale: 'ko_KR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ThreeLayered',
+    description: 'ThreeLayered - 웹 개발자 포트폴리오',
+    images: ['/logo/logo-small.svg'],
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'verification_token', // Google Search Console 인증 토큰
+    other: {
+      'naver-site-verification': 'verification_token' // 네이버 웹마스터 도구 인증 토큰
+    }
+  },
 }
 
 export default function RootLayout({
@@ -22,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body className={`${sora.variable} font-sans`}>{children}</body>
     </html>
   )

@@ -1,0 +1,167 @@
+.container {
+  padding: 5rem 1rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  width: 36.44969rem;
+  color: var(--neutral-n900);
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-size: 3.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.11694rem;
+  margin-bottom: 3.87rem;
+}
+
+.description {
+  width: 67.99269rem;
+  color: #252525;
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-size: 1.11419rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4rem;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16.75rem;
+}
+
+.name {
+  color: #434343;
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-size: 1.11419rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.75rem;
+}
+
+.avatar {
+  width: 16.75rem;
+  height: 16.75rem;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  margin-bottom: 0.62rem;
+  border-radius: 1.11419rem;
+  background: #E3E3E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-david {
+  background: url('/images/aboutus/david.png') #E3E3E3 center / contain no-repeat;
+}
+
+.avatar-mela {
+  background: url('/images/aboutus/mela.png') #E3E3E3 center / contain no-repeat;
+}
+
+.avatar-erin {
+  background: url('/images/aboutus/erin.png') #E3E3E3 center / contain no-repeat;
+}
+
+.location {
+  color: #434343;
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  font-size: 1.11419rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.skills-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  justify-content: center;
+  width: 16.75rem;
+}
+
+.skill {
+  padding: 0.3rem 0.75rem;
+  border-radius: 3.30281rem;
+  border: 0.528px solid #CBCFE2;
+  font-size: 0.75rem;
+  color: #4A5568;
+  background: transparent;
+  white-space: nowrap;
+}
+
+.button {
+  width: 14.8125rem;
+  height: 3.875rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 0.75rem;
+  background: linear-gradient(180deg, #9888F4 0%, #715DE3 100%);
+  cursor: pointer;
+  margin-top: 6.5rem;
+  
+  /* 텍스트 스타일 */
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .profiles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile {
+    margin-bottom: 2rem;
+  }
+
+  .skills {
+    gap: 0.5rem;
+  }
+} 

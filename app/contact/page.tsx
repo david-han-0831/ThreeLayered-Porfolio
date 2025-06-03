@@ -166,7 +166,7 @@ export default function ContactPage() {
       <Navbar />
       
       {/* Main Content */}
-      <div className="flex flex-col items-center justify-center w-full mt-[7rem] mt-[20rem]" >
+      <div className="flex flex-col items-center justify-center w-full mt-[20rem]" >
         {/* Title */}
         <h1 className="w-[30.5rem] h-[1.25rem] flex-shrink-0 text-[#141125] text-center font-sora text-[3.9375rem] font-semibold leading-[1rem] mb-[3.5rem]">
           Three Layered

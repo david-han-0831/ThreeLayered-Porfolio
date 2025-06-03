@@ -1,6 +1,11 @@
+'use client';
+
 import styles from '../styles/AboutUs.module.css'
+import { useRouter } from 'next/navigation'
 
 const AboutUs = () => {
+  const router = useRouter()
+
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -61,7 +66,10 @@ const AboutUs = () => {
         </div>
 
         {/* Talk To Us 버튼 */}
-        <button className={styles.button}>
+        <button 
+          className={styles.button}
+          onClick={() => router.push('/contact')}
+        >
           Talk To Us
         </button>
       </div>

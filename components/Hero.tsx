@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
@@ -12,6 +13,7 @@ const Hero = () => {
   const toolIconsRef = useRef<HTMLDivElement>(null);
   const words = ['UX DESIGN', 'DEVELOPMENT', 'MARKETING'];
   const typingSpeed = 150; // 타이핑 속도 (밀리초)
+  const router = useRouter();
 
   // 각 단어별 이미지 세트
   const imageSets = {
@@ -164,7 +166,10 @@ const Hero = () => {
           <p className="hero-subtitle">
             We bring clarity, creativity, and tech together to support your growth.
           </p>
-          <button className="hero-button">
+          <button 
+            className="hero-button"
+            onClick={() => router.push('/contact')}
+          >
             Talk to us
           </button>
         </div>

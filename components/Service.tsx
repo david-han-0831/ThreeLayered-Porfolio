@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { ServiceCard } from "./ServiceCard";
 import KeywordList from "./keyword";
+import { useRouter } from 'next/navigation';
 
 const SERVICE_CARDS = [
   {
@@ -25,6 +26,7 @@ const SERVICE_CARDS = [
 
 export default function Service() {
   const [activeIdx, setActiveIdx] = useState(0);
+  const router = useRouter();
 
   return (
     <section
@@ -91,6 +93,7 @@ export default function Service() {
             text-[#FFF] text-center font-inter text-[1.125rem] capitalize
             shadow-md transition hover:brightness-110
           "
+          onClick={() => router.push('/contact')}
         >
           Talk To Us
         </button>

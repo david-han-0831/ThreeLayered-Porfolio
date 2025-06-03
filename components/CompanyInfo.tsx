@@ -21,7 +21,7 @@ export const CompanyInfo = () => {
         companies & digital agencies.
       </p>
       <address className="text-base text-zinc-600 not-italic">
-        contact@threelayered.com
+        contact@three-layered.com 
       </address>
     </section>
   );

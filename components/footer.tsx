@@ -23,7 +23,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2 mt-2">
               <Image src="/images/footer/email.svg" alt="email icon" width={18} height={15} />
-              <span className="text-[#82868C] text-base">contact@threelayered.com</span>
+              <span className="text-[#82868C] text-base">contact@three-layered.com </span>
             </div>
           </div>
           {/* Navigation */}

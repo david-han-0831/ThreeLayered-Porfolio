@@ -58,7 +58,7 @@ const Footer: NextPage = () => {
 					<div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]">
 						<div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]">
 							<Image className="absolute h-3/5 w-[5.25%] top-[24.86%] right-[94.75%] bottom-[15.14%] left-[0%] max-w-full overflow-hidden max-h-full" fill alt="" src="/images/footer/icon.svg" />
-							<div className="absolute top-[0rem] left-[1.563rem] leading-[1.25rem]">contact@threelayered.com</div>
+							<div className="absolute top-[0rem] left-[1.563rem] leading-[1.25rem]">contact@three-layered.com </div>
 						</div>
 					</div>
 				</div>

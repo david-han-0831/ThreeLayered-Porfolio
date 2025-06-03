@@ -7,7 +7,7 @@ import MotionGraphics from "@/components/MotionGraphics"
 import AboutUs from "@/components/AboutUs"
 import Project from "@/components/Project"
 import { Metadata } from "next"
-// ✅ 메타데이터 설정 (절대경로로 작성해야 카카오가 인식 가능)
+// ✅ 메타데이터 설정 (절대경로로 작성해야 카카오가 인식 가능)   
 export const metadata: Metadata = {
   title: "ThreeLayered",
   description: "ThreeLayered - 웹 개발자 포트폴리오",
